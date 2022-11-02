@@ -55,6 +55,7 @@
 .main-container {
     max-width: 700px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
     padding-top: 2rem;
@@ -71,6 +72,26 @@
     align-items: center;
 }
 
+.sq.small {
+    width: 75px;
+    height: 75px;
+}
+
+.sq.crazy {
+    width: 100px;
+    height: 100px;
+}
+
 .overlay {
     background-color: blue;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mod-phrase {
+    font-size: 2rem;
+    margin-top: 2rem;
 }
